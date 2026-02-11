@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Rareș Niță</title>
+  <script type="module" crossorigin src="/assets/index-BTvJ_5gq.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-kWOzBcwl.css">
+</head>
+
+<body class="bg-slate-50 dark:bg-slate-950 dark:text-white">
+	<nav id="navbar"
+		class="fixed top-0 left-0 w-full z-50 transition-all duration-500 transform -translate-y-full opacity-0 bg-white/90 dark:bg-slate-950/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 py-4">
+		<div class="container mx-auto px-6 flex justify-between items-center">
+			<span class="text-xl font-black uppercase tracking-tighter dark:text-white">Rareș Niță</span>
+
+			<ul class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-[0.2em] dark:text-slate-300">
+				<li>
+					<a href="#about" class="hover:text-blue-500 transition-colors">About</a>
+				</li>
+				<li>
+					<a href="#skills" class="hover:text-blue-500 transition-colors">Skills</a>
+				</li>
+				<li>
+					<a href="#projects" class="hover:text-blue-500 transition-colors">Projects</a>
+				</li>
+				<li>
+					<a href="#contact" class="hover:text-blue-500 transition-colors">Contact</a>
+				</li>
+				<li>
+					<a href="ro.html" class="hover:text-blue-500 transition-colors"><span class="fi fi-ro"></span></a>
+				</li>
+			</ul>
+
+			<button id="menu-btn" class="md:hidden text-slate-900 dark:text-white focus:outline-none">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+					stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+				</svg>
+			</button>
+		</div>
+	</nav>
+
+	<div id="mobile-menu"
+		class="fixed inset-0 z-60 bg-slate-950 translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+		<div class="flex flex-col items-center justify-center h-full space-y-8">
+			<button id="close-menu" class="absolute top-6 right-6 text-white text-3xl">
+				&times;
+			</button>
+			<a href="#about" class="mobile-link text-3xl font-black uppercase text-white">About</a>
+			<a href="#skills" class="mobile-link text-3xl font-black uppercase text-white">Skills</a>
+			<a href="#projects" class="mobile-link text-3xl font-black uppercase text-white">Projects</a>
+			<a href="#contact" class="mobile-link text-3xl font-black uppercase text-white">Contact</a>
+			<a href="ro.html" class="mobile-link text-3xl font-black uppercase text-white"><span class="fi fi-ro"></span></a>
+		</div>
+	</div>
+
+	<section class="min-h-screen flex items-center px-6 py-20">
+		<div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+			<div class="order-2 md:order-1">
+				<h1
+					class="text-6xl md:text-8xl font-black uppercase tracking-tighter text-slate-900 dark:text-white leading-none">
+					Rareș Niță
+				</h1>
+
+				<p class="mt-6 text-xl md:text-2xl text-slate-600 dark:text-slate-400 max-w-md font-light">
+					Full-stack developer crafting high-performance web applications with
+					a focus on clean architecture.
+				</p>
+
+				<div class="mt-10">
+					<a href="#about"
+						class="group inline-flex items-center gap-2 text-lg font-semibold uppercase tracking-widest text-slate-900 dark:text-white">
+						Read more about me
+						<svg xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5 transition-transform group-hover:translate-x-2" fill="none"
+							viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M17 8l4 4m0 0l-4 4m4-4H3" />
+						</svg>
+					</a>
+					
+					<div class="h-0.5 w-12 bg-blue-600 transition-all group-hover:w-48"></div>
+				</div>
+				<a class="" href="ro.html" class="mt-8">Vizitează site-ul în limba română</a>
+			</div>
+
+			<div class="order-1 md:order-2 flex justify-center md:justify-end">
+				<div class="relative group">
+					<img src="/assets/story-an0X0wiJ.jpg" alt="Profile picture"
+						class="relative w-lg h-lg grayscale object-cover rounded-xl hover:grayscale-0 transition-all duration-250 shadow-2xl" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container mx-auto p-5 md:px-20 py-10">
+			<h1 class="text-4xl uppercase border-b-2 pb-4 w-max md:text-5xl">
+				About me
+			</h1>
+			<p class="py-2">
+				Romanian-based web developer and creative mind. With over 2 years of
+				experience under my belt, I've been able to transform ideas into
+				reality.
+			</p>
+			<div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Professional experience</h2>
+					<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-20">
+						<div class="p-2">
+							<h3 class="font-bold grid md:block">
+								Mindsoft IT Solutions
+								<span class="text-neutral-400 font-medium">2024 - 2025</span>
+							</h3>
+							<h4 class="border-b-2 pb-2">IT Consultant</h4>
+							<ul class="list-disc">
+								<li>
+									<b>Data Integrity & Migration</b> using complex SQL scripts
+									for large-scale data migrations across distributed
+									databases.
+								</li>
+								<li>
+									<b>Troubleshooting</b> by resolving critical database bugs
+									and data entry discrepancies for clients under high-pressure
+									environments.
+								</li>
+								<li>
+									<b>Process Improvement</b> by proposing documentation
+									standards and password management protocols to reduce
+									technical debt and improve team security.
+								</li>
+							</ul>
+						</div>
+
+						<div class="p-2">
+							<h3 class="font-bold grid md:block">
+								Continental Automotive Systems
+								<span class="text-neutral-400 font-medium">2022 - 2024</span>
+								<h4 class="border-b-2 pb-2">Software Development Intern</h4>
+							</h3>
+							<ul class="list-disc">
+								<li>
+									<b>Developed custom BI dashboards</b> using Node-RED to
+									monitor real-time KPIs, improving team vistibility into
+									techinician workloads and ticket lifecycles.
+								</li>
+								<li>
+									<b>Automated JIRA workflows</b> via REST API integrations,
+									reducing manual administrative tasks by automating ticket
+									assignments, priority shifts, and status updates.
+								</li>
+								<li>
+									<b>Architected Data Links</b> by creating RESTful endpoints
+									to bridge the gap between internal Oracle databases and
+									frontend visualization tools.
+								</li>
+								<li>
+									<b>Maintained comprehensive documentation</b> in Confluence,
+									ensuring long-term maintainability for custom automation
+									scripts.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Education</h2>
+					<div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-20">
+						<div class="p-2">
+							<h3 class="font-bold grid md:block">
+								Universitatea "Lucian Blaga" din Sibiu
+								<span class="text-neutral-400 font-medium">2020 - 2024</span>
+							</h3>
+							<h4 class="border-b-2 pb-2">Information Technology</h4>
+							<ul class="list-disc">
+								<li>
+									<b>Programming Foundations:</b> Algorithms, data structures,
+									software design, OOP, and image processing.
+								</li>
+								<li>
+									<b>Bachelor Thesis Project - Timetable website rework</b>
+									<ul class="pl-6 list-disc">
+										<li>
+											<b>Concept:</b> Modernizing a legacy university system
+											by migrating an outdated architecture to a
+											high-performance, production-ready stack.
+										</li>
+										<li>
+											<b>Stack:</b> Developed using Laravel (PHP), and MySQL,
+											focusing on high availability and clean code principles
+											(DRY).
+										</li>
+										<li>
+											<b>Real-Time Status Engine:</b> Built a dynamic tracking
+											system using Carbon logic to calculate and display
+											"Current Course" and "Next Course" indicators based on
+											the system's timezone.
+										</li>
+										<li>
+											<b>Automated Notification System:</b> Developed a
+											role-based alert module that allows professors to
+											broadcast critical updates to specific student groups.
+										</li>
+										<li>
+											<b>Dynamic Rescheduling:</b> Implemented a complex
+											backend logic to handle one-time or recurring schedule
+											changes without compromising data integrity.
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="p-2">
+							<h3 class="font-bold grid md:block">
+								Liceul Teoretic "Alexandru Marghiloman" Buzău
+								<span class="text-neutral-400 font-medium">2016 - 2020</span>
+							</h3>
+							<h4 class="border-b-2 pb-2">Mathematics & Computer Science</h4>
+							<ul class="list-disc">
+								<li>
+									<b>Programming Foundations:</b> Intensive study of C++ data
+									structures, and logic.
+								</li>
+								<li>
+									<b>National Information and Communication Technology
+										Olympiad (2017):</b>
+									Awarded the Bronze Medal at the national level,
+									demonstrating advanced problem-solving skills under
+									pressure.
+								</li>
+								<li>
+									<b>Technical Certification Project - Nissan Skyline digital
+										encyclopedia</b>
+									<ul class="pl-6 list-disc">
+										<li>
+											<b>Concept:</b> Developed a comprehensive digital
+											archive covering the lineage of the Nissan Skyline, from
+											its origins as the Prince Skyline to the modern Infiniti
+											Q50.
+										</li>
+										<li>
+											<b>Technical Side:</b> Built using HTML5, CSS3, and PHP
+											(for a quiz section), focusing on responsive design and
+											information architecture to handle complex historical
+											data and multimedia.
+										</li>
+										<li>
+											<b>Outcome:</b> Earned the maximum grade for technical
+											execution and content depth.
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills">
+		<div class="container mx-auto p-5 md:px-20 py-10">
+			<h1 class="text-4xl uppercase border-b-2 pb-4 w-max md:text-5xl">
+				Skills
+			</h1>
+			<div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Backend & Logic</h2>
+					<div class="flex gap-4 md:gap-8">
+						<p>PHP (Laravel)</p>
+						<p>Node-RED</p>
+						<p>REST APIs</p>
+						<p>JSON</p>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Frontend</h2>
+					<div class="flex gap-4 md:gap-8">
+						<p>JavaScript</p>
+						<p>HTML5</p>
+						<p>CSS</p>
+						<p>Responsive design</p>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Database & BI</h2>
+					<div class="flex gap-4 md:gap-8">
+						<p>SQL (MySQL, Oracle, SQLite)</p>
+						<p>Data modeling</p>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Tools & Platforms</h2>
+					<div class="flex gap-4 md:gap-8">
+						<p>Git</p>
+						<p>Jira</p>
+						<p>Confluence</p>
+					</div>
+				</div>
+				<div>
+					<h2 class="text-3xl border-b pb-2">Miscelaneous</h2>
+					<div class="flex gap-0 md:gap-8">
+						<p>Localisation (l10n) </p>
+						<p>Internationalization (i18n)</p>
+						<p>Video and photo editing</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div class="container mx-auto p-5 md:px-20 py-10">
+			<h1 class="text-4xl uppercase border-b-2 pb-4 w-max md:text-5xl">
+				Projects
+			</h1>
+			<div>
+				<p>WIP</p>
+			</div>
+	</section>
+
+	<section id="contact">
+		<div class="container mx-auto p-5 md:px-20 py-10">
+			<h1 class="text-4xl uppercase border-b-2 pb-4 w-max md:text-5xl">
+				Let's get in touch!
+			</h1>
+			<div class="flex gap-16">
+				<div class="hover:text-blue-500 transition-colors">
+					<a href="mailto:rares.nita2001@gmail.com" target="_blank">
+						<i class="fa-solid fa-envelope"></i>
+						E-mail
+					</a>
+				</div>
+				<div class="hover:text-blue-500 transition-colors">
+					<a href="https://www.linkedin.com/in/rare%C8%99-ni%C8%9B%C4%83-9b62b4297/" target="_blank">
+						<i class="fa-brands fa-linkedin"></i>
+						LinkedIn
+					</a>
+				</div>
+				<div class="hover:text-blue-500 transition-colors">
+					<a href="https://github.com/raresnita" target="_blank">
+						<i class="fa-brands fa-github"></i>
+						GitHub
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="p-2 text-center bg-slate-950 text-slate-50 dark:bg-slate-50 dark:text-black">
+		<p>2026 &copy; Rareș Niță</p>
+		<p>Built using <a class="hover:text-blue-500 transition-colors" href="https://tailwindcss.com/"
+				target="_blank">TailwindCSS</a> & <a class="hover:text-blue-500 transition-colors"
+				href="https://fontawesome.com/" target="_blank">Font Awesome</a></p>
+	</footer>
+</body>
+
+</html>

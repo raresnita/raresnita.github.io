@@ -25,7 +25,7 @@ mobileLinks.forEach((link) => {
 window.addEventListener("scroll", () => {
 	// You can set '100' to any value, or use 'window.innerHeight'
 	// to wait until the hero is fully scrolled past.
-	if (window.scrollY > 150) {
+	if (window.scrollY > 100) {
 		navbar.classList.remove("-translate-y-full", "opacity-0");
 		navbar.classList.add("translate-y-0", "opacity-100");
 	} else {
