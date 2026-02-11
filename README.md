@@ -1,4 +1,7 @@
 # rarestein.github.io
 
-This is just the repo for my personal webpage.
-![image](https://github.com/user-attachments/assets/71ff6bdd-ce52-43a5-9171-0768c34e73b7)
+This is just the repo for my personal webpage. Still WIP, but it's good for a start I reckon.
+
+<img width="3840" height="2160" alt="website_preview" src="https://github.com/user-attachments/assets/d69a9b2a-0674-4dba-b96e-0fa7b13d09f5" />
+
+Made using [TailwindCSS](https://tailwindcss.com/) and [Font Awesome](https://fontawesome.com/)
