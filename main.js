@@ -1,9 +1,8 @@
-const navbar = document.getElementById("navbar");
-
-const menuBtn = document.getElementById("menu-btn");
-const closeBtn = document.getElementById("close-menu");
-const mobileMenu = document.getElementById("mobile-menu");
-const mobileLinks = document.querySelectorAll(".mobile-link");
+const navbar = document.getElementById("navbar"),
+	menuBtn = document.getElementById("menu-btn"),
+	closeBtn = document.getElementById("close-menu"),
+	mobileMenu = document.getElementById("mobile-menu"),
+	mobileLinks = document.querySelectorAll(".mobile-link");
 
 // Open Menu
 menuBtn.addEventListener("click", () => {
@@ -23,9 +22,7 @@ mobileLinks.forEach((link) => {
 });
 
 window.addEventListener("scroll", () => {
-	// You can set '100' to any value, or use 'window.innerHeight'
-	// to wait until the hero is fully scrolled past.
-	if (window.scrollY > 100) {
+	if (window.scrollY > 150) {
 		navbar.classList.remove("-translate-y-full", "opacity-0");
 		navbar.classList.add("translate-y-0", "opacity-100");
 	} else {

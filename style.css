@@ -1,7 +1,12 @@
 @import "tailwindcss";
-@import "flag-icons/css/flag-icons.min.css";
 
 @theme {
 	--color-white: #f2f2f2;
 	--font-sans: "IBM Plex Sans", sans-serif;
+}
+
+@utility scrollbar-hide {
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
